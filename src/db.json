@@ -1,0 +1,34 @@
+{
+  "patients": [
+    {
+      "id": 1750844800589,
+      "name": "sanjay",
+      "age": 21,
+      "gender": "Male",
+      "conditions": [
+        "fever cold"
+      ],
+      "lastVisit": "2025-06-25",
+      "prescriptionCount": 1
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": 1750961495381,
+      "patientId": 1750844800589,
+      "date": "2025-06-26",
+      "medications": [
+        {
+          "name": "paracetamol",
+          "dosage": "250 mg",
+          "frequency": "2",
+          "duration": ""
+        }
+      ],
+      "instructions": "take after food",
+      "prescriptionNumber": "RX-1750961495381-1750844800589",
+      "status": "completed"
+    }
+  ],
+  "verifications": []
+}
